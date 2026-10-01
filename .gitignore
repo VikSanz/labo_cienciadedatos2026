@@ -1,5 +1,7 @@
+
 # Synthea original + datos generados
 synthea/
+ETL-Synthea/
 
 # Datos grandes
 *.csv
