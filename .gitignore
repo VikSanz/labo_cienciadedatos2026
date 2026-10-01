@@ -1,0 +1,22 @@
+# Synthea original + datos generados
+synthea/
+
+# Datos grandes
+*.csv
+
+# PostgreSQL
+postgres_data/
+
+# Variables de entorno
+.env
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+

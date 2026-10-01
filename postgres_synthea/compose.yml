@@ -1,0 +1,18 @@
+services:
+  postgres:
+    image: postgres:17
+    container_name: synthea_postgres
+    environment:
+      POSTGRES_USER: victor
+      POSTGRES_PASSWORD: victor
+      POSTGRES_DB: synthea
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ../synthea/output/csv:/data/csv:ro
+
+volumes:
+  postgres_data:
+
+
