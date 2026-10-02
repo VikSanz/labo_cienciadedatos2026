@@ -22,3 +22,5 @@ __pycache__/
 # Jupyter
 .ipynb_checkpoints/
 
+athena_vocabulary/
+errorReportSql.txt
