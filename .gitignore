@@ -1,5 +1,7 @@
+
 # Synthea original + datos generados
 synthea/
+ETL-Synthea/
 
 # Datos grandes
 *.csv
@@ -20,3 +22,5 @@ __pycache__/
 # Jupyter
 .ipynb_checkpoints/
 
+athena_vocabulary/
+errorReportSql.txt
